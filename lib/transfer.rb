@@ -15,7 +15,8 @@ class Transfer
   end
   
   def execute_transaction
-    
+    if @status == valid? 
+      sender.balance
   end
   
 end
