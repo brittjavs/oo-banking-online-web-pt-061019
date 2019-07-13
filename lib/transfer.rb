@@ -16,7 +16,7 @@ class Transfer
   
   def execute_transaction
     if @status == valid? 
-      sender.balance
+      sender.balance - 50
   end
   
 end
