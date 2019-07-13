@@ -30,6 +30,7 @@ end
     if self.status = "complete"
       sender.balance += amount
       receiver.balance -= amount
+      self.status = "reversed"
     end
   end
 end
