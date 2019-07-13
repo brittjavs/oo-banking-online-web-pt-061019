@@ -32,3 +32,4 @@ end
     receiver.balance -= amount
   end
 end
+end
